@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("photos/southparkback.jpg");
+    background-size: cover ;
+}
+
+h1{
+    font-size: 100px;
+    color: yellow;
+    text-shadow: 3px 8px #000;
+}
+
+button {
+    border-radius: 25%;
+    
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    color:brown;
+    text-shadow: 3px 3px black;
+    text-align: left;
+    border-width: 5px;
+}
+
+.stan {
+    background-image: url("photos/stan.png");
+    background-color: blue;
+    background-size: 63%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.eric {
+    background-image: url("photos/cartman.png");
+    background-color: red;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.kyle {
+    background-image: url("photos/kyle.png");
+    background-color: green;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.kenny {
+    background-image: url("photos/kenny.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: orange;
+}
+.characters{
+    background-color: white;
+    background: rgba(255, 255, 255, 0.3);
+    display:inline-block;
+}
+
+.one, .two, .three, .four {
+    position: relative;
+    display: inline-block;
+}
+
+p{
+    font-size: 60px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.south:hover {
+    background-color: white;
+}
+
+footer {
+    margin: 140px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #000;
+    color: red;
+}
